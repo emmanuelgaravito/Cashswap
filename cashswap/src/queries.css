@@ -1,0 +1,84 @@
+/*° Smaller desktop*/
+@media (max-width: 72em) {
+	:root {
+		/* 9px / 16px  */
+		font-size: 56.25%;
+	}
+}
+
+@media (max-width: 66em) {
+	:root {
+		/* 9px / 16px  */
+		font-size: 50%;
+	}
+}
+
+@media (max-width: 55.25em) {
+	:root {
+		/* 9px / 16px  */
+	}
+}
+
+/* Below 448 px */
+@media (max-width: 34em) {
+	body {
+		height: auto;
+		background-color: #333;
+	}
+
+	.container {
+		max-width: 48rem;
+	}
+
+	.login_container {
+		box-shadow: none;
+		width: 100vw;
+		height: 100vh;
+	}
+
+	.form_container {
+		gap: 4rem;
+		/* font-size: 1.9rem; */
+	}
+
+	.mainLogo {
+		max-width: 100%;
+	}
+
+	.avatar_container {
+		display: none;
+	}
+
+	.countdownTimer {
+		display: none;
+	}
+
+	.totals_mainContainer {
+		flex-direction: column-reverse;
+
+		align-items: center;
+	}
+
+	.movement {
+		column-gap: 5rem;
+	}
+
+	.totals_stats {
+		text-align: center;
+		margin-left: 4rem;
+		margin-bottom: 2rem;
+	}
+	.totalAmount {
+		font-size: 5rem;
+		margin: 2rem 0;
+		background: linear-gradient(45deg, #0cd739, #eff184, #00f5ff);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.dashboard_layout {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+}
